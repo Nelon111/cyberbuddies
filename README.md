@@ -49,6 +49,7 @@ elegance-couture/
 ## JavaScript Features
 
 ### On All Pages:
+
 - Mobile navigation toggle (hamburger menu)
 - Active page highlighting in navigation
 - Scroll animations with fade-in effects
@@ -57,6 +58,7 @@ elegance-couture/
 - Animated marquee banner
 
 ### Page-Specific Features:
+
 - **Gallery Page**: Image modal viewer with click-to-enlarge functionality
 - **Appointments Page**: Real-time form validation with error messages
 - **Contact Page**: Inquiry form with validation and success messages
@@ -65,16 +67,19 @@ elegance-couture/
 ## How to Use
 
 ### Viewing the Website:
+
 1. Open `index.html` in any modern web browser
 2. Navigate through the pages using the menu
 3. All pages are interconnected with consistent navigation
 
 ### For Local Development:
+
 - Simply open the HTML files in your browser
 - No server or build process required
 - All resources are included
 
 ### Sharing with Group Members:
+
 1. Download the entire project folder
 2. Share via cloud storage (Google Drive, Dropbox, etc.)
 3. Or compress into a ZIP file for easy distribution
@@ -126,9 +131,5 @@ elegance-couture/
 
 ## Credits
 
-Created for [Your University Name] - [Course Code]
+Created for Cyberbuddies Cybersecurity Group - CSC 106
 Group Project - [Semester/Year]
-
-## License
-
-This project is created for educational purposes.
