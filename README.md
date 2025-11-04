@@ -1,6 +1,6 @@
 # Élégance Couture - Fashion House Website
 
-A complete fashion house website built with HTML, CSS, and JavaScript for a university group project.
+A complete fashion house website built with HTML, CSS, and JavaScript for our Miva Cybersecurity group project.
 
 ## Project Overview
 
@@ -132,4 +132,4 @@ elegance-couture/
 ## Credits
 
 Created for Cyberbuddies Cybersecurity Group - CSC 106
-Group Project - [Semester/Year]
+Group Project - [2nd Semester/2025]
