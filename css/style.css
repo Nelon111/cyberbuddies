@@ -177,7 +177,7 @@ nav ul li a.active {
 /* Container and Sections */
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto ;
     padding: 40px 20px;
 }
 
@@ -608,14 +608,14 @@ footer {
 
     /* make button layout consistent and centered */
 .button-row {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; /* allows stacking on small screens */
-  width: 100%;
-  box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* <-- add spacing between buttons */
+    margin-top: 50px;
+    flex-wrap: wrap; /* ensures wrapping on smaller screens */
 }
+
 
 /* make .btn behave predictably */
 .btn {
