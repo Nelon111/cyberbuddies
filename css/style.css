@@ -281,6 +281,47 @@ nav ul li a.active {
     justify-content: center !important;
 }
 
+/* Trustees Grid */
+.trustees-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.trustee-card {
+    background-color: var(--white);
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.trustee-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+}
+
+.trustee-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    border: 4px solid var(--secondary-color);
+}
+
+.trustee-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.trustee-card p {
+    color: #666;
+    font-style: italic;
+}
+
+
 /* Footer Styles */
 footer {
     background-color: var(--primary-color);
