@@ -1,10 +1,10 @@
-# Élégance Couture - Fashion House Website
+# Déola's Couture - Fashion House Website
 
 A complete fashion house website built with HTML, CSS, and JavaScript for our Miva Cybersecurity group project.
 
 ## Project Overview
 
-This website showcases a luxury fashion house called "Élégance Couture" and includes all required features for the university assessment task.
+This website showcases a luxury fashion house called " Couture" and includes all required features for the university assessment task.
 
 ## Features
 
@@ -87,7 +87,7 @@ elegance-couture/
 
 ## Assessment Requirements Checklist
 
-- ✅ **Naming**: Fashion house named "Élégance Couture"
+- ✅ **Naming**: Fashion house named "Déola's Couture"
 - ✅ **10+ Pages**: 11 pages total (index + 10 internal pages)
 - ✅ **Product Showcase**: Products displayed across multiple pages
 - ✅ **Consistent Links**: Same navigation structure on all pages
