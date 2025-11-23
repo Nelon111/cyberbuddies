@@ -1,292 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website DOM Structure - Déola's Couture Site Architecture">
-    <title>DOM Structure - Déola's Couture</title>
-    <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website DOM Structure - Déola's Couture Site Architecture"
+    />
+    <title>DOM Structure - Velaora's Couture</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Marquee Banner -->
     <div class="marquee-container">
-        <div class="marquee-content">
-            ★ Upcoming Event: Spring/Summer Collection Launch - March 15, 2025 ★ New Arrivals Every Week ★ Book Your Personal Styling Session Today ★ Follow Us on Social Media for Exclusive Updates ★
-        </div>
+      <div class="marquee-content">
+        ★ Upcoming Event: Spring/Summer Collection Launch - March 15, 2025 ★ New
+        Arrivals Every Week ★ Book Your Personal Styling Session Today ★ Follow
+        Us on Social Media for Exclusive Updates ★
+      </div>
     </div>
 
     <!-- Header and Navigation -->
     <header>
-        <div class="logo-section">
-            <h1>Déola's COUTURE</h1>
-            <p>Redefining Fashion Excellence</p>
-        </div>
-        <button class="menu-toggle">☰ Menu</button>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="lookbook.html">Lookbook</a></li>
-                <li><a href="trustees.html">Board of Trustees</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="appointments.html">Appointments</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="dom-structure.html">Site Structure</a></li>
-            </ul>
-        </nav>
+      <div class="logo-section">
+        <h1>Velaora's COUTURE</h1>
+        <p>Redefining Fashion Excellence</p>
+      </div>
+      <button class="menu-toggle">☰ Menu</button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="trustees.html">Board of Trustees</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="appointments.html">Appointments</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="dom-structure.html">Site Structure</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main class="container">
-        <section class="section">
-            <h1 class="section-title">Website DOM Structure</h1>
-            <p style="text-align: center; max-width: 700px; margin: 0 auto 50px; font-size: 1.1em; color: #666;">
-                This page displays the Document Object Model (DOM) hierarchy of the Déola's Couture website, 
-                showing how all pages and components are organized.
-            </p>
+      <section class="section">
+        <h1 class="section-title">Website DOM Structure</h1>
+        <p
+          style="
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 50px;
+            font-size: 1.1em;
+            color: #666;
+          "
+        >
+          This page displays the Document Object Model (DOM) hierarchy of the
+          Velaora's Couture website, showing how all pages and components are
+          organized.
+        </p>
 
-            <div class="dom-tree">
-                <div style="margin-bottom: 40px;">
-                    <h2 style="color: #2c2c2c; margin-bottom: 20px;">Website Structure Overview</h2>
-                    
-                    <div class="dom-element">📁 Déola's Couture Website Root</div>
-                    
-                    <div class="dom-node">
-                        <span class="dom-element">📄 index.html</span>
-                        <span class="dom-description"> - Homepage with hero section and featured products</span>
-                    </div>
-                    
-                    <div class="dom-node">
-                        <span class="dom-element">📁 pages/</span>
-                        <span class="dom-description"> - All internal pages</span>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">📄 about.html</span>
-                            <span class="dom-description"> - Company story, vision, and values</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 products.html</span>
-                            <span class="dom-description"> - Complete product catalog (12 items)</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 collections.html</span>
-                            <span class="dom-description"> - Seasonal collections showcase</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 lookbook.html</span>
-                            <span class="dom-description"> - Style inspiration and outfit ideas</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 trustees.html</span>
-                            <span class="dom-description"> - Board of Trustees profiles (6 members)</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 events.html</span>
-                            <span class="dom-description"> - Upcoming events and fashion shows (6 events)</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 gallery.html</span>
-                            <span class="dom-description"> - Fashion photography gallery (12 images)</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 appointments.html</span>
-                            <span class="dom-description"> - Booking form with validation</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 contact.html</span>
-                            <span class="dom-description"> - Contact information and inquiry form</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 dom-structure.html</span>
-                            <span class="dom-description"> - This page - website architecture</span>
-                        </div>
-                    </div>
-                    
-                    <div class="dom-node">
-                        <span class="dom-element">📁 css/</span>
-                        <span class="dom-description"> - External stylesheets</span>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">📄 style.css</span>
-                            <span class="dom-description"> - Main stylesheet with responsive design</span>
-                        </div>
-                    </div>
-                    
-                    <div class="dom-node">
-                        <span class="dom-element">📁 js/</span>
-                        <span class="dom-description"> - JavaScript files</span>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">📄 main.js</span>
-                            <span class="dom-description"> - Navigation, animations, gallery modal</span>
-                        </div>
-                        <div class="dom-node">
-                            <span class="dom-element">📄 form-validation.js</span>
-                            <span class="dom-description"> - Real-time form validation</span>
-                        </div>
-                    </div>
-                    
-                    <div class="dom-node">
-                        <span class="dom-element">📁 images/</span>
-                        <span class="dom-description"> - Image assets (placeholder folder)</span>
-                    </div>
-                </div>
+        <div class="dom-tree">
+          <div style="margin-bottom: 40px">
+            <h2 style="color: #2c2c2c; margin-bottom: 20px">
+              Website Structure Overview
+            </h2>
 
-                <div style="margin-top: 50px; background-color: white; padding: 30px; border-radius: 5px;">
-                    <h2 style="color: #2c2c2c; margin-bottom: 20px;">Standard Page Structure (DOM Hierarchy)</h2>
-                    
-                    <div class="dom-element">&lt;html&gt;</div>
-                    <div class="dom-node">
-                        <span class="dom-element">&lt;head&gt;</span>
-                        <span class="dom-description"> - Meta tags, title, CSS links</span>
-                    </div>
-                    <div class="dom-node">
-                        <span class="dom-element">&lt;body&gt;</span>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">&lt;div class="marquee-container"&gt;</span>
-                            <span class="dom-description"> - Animated marquee banner</span>
-                            
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;div class="marquee-content"&gt;</span>
-                                <span class="dom-description"> - Event announcements</span>
-                            </div>
-                        </div>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">&lt;header&gt;</span>
-                            <span class="dom-description"> - Site header (sticky)</span>
-                            
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;div class="logo-section"&gt;</span>
-                                <span class="dom-description"> - Brand name and tagline</span>
-                            </div>
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;button class="menu-toggle"&gt;</span>
-                                <span class="dom-description"> - Mobile menu button</span>
-                            </div>
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;nav&gt;</span>
-                                <span class="dom-description"> - Navigation menu (11 links)</span>
-                                
-                                <div class="dom-node">
-                                    <span class="dom-element">&lt;ul&gt;</span>
-                                    <span class="dom-description"> - Menu list items</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">&lt;main class="container"&gt;</span>
-                            <span class="dom-description"> - Main content area</span>
-                            
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;section class="section"&gt;</span>
-                                <span class="dom-description"> - Content sections</span>
-                            </div>
-                        </div>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">&lt;footer&gt;</span>
-                            <span class="dom-description"> - Site footer</span>
-                            
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;div class="footer-links"&gt;</span>
-                                <span class="dom-description"> - Footer navigation</span>
-                            </div>
-                            <div class="dom-node">
-                                <span class="dom-element">&lt;div class="social-media"&gt;</span>
-                                <span class="dom-description"> - Social media links</span>
-                            </div>
-                        </div>
-                        
-                        <div class="dom-node">
-                            <span class="dom-element">&lt;script src="js/main.js"&gt;</span>
-                            <span class="dom-description"> - JavaScript functionality</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="dom-element">📁 Velaora's Couture Website Root</div>
 
-                <div style="margin-top: 50px; background-color: white; padding: 30px; border-radius: 5px;">
-                    <h2 style="color: #2c2c2c; margin-bottom: 20px;">JavaScript Features by Page</h2>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: #d4af37;">All Pages:</strong>
-                        <ul style="margin-left: 40px; margin-top: 10px; line-height: 1.8;">
-                            <li>Mobile navigation toggle</li>
-                            <li>Active navigation highlighting</li>
-                            <li>Scroll animations (fade-in effects)</li>
-                            <li>Back-to-top button</li>
-                            <li>Smooth scrolling for anchor links</li>
-                        </ul>
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: #d4af37;">Gallery Page:</strong>
-                        <ul style="margin-left: 40px; margin-top: 10px; line-height: 1.8;">
-                            <li>Image modal viewer (click to enlarge)</li>
-                            <li>Hover overlay effects</li>
-                        </ul>
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: #d4af37;">Appointments & Contact Pages:</strong>
-                        <ul style="margin-left: 40px; margin-top: 10px; line-height: 1.8;">
-                            <li>Real-time form validation</li>
-                            <li>Email and phone format checking</li>
-                            <li>Required field validation</li>
-                            <li>Success message display</li>
-                            <li>Date picker with past date prevention</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div style="margin-top: 50px; background-color: white; padding: 30px; border-radius: 5px;">
-                    <h2 style="color: #2c2c2c; margin-bottom: 20px;">Key Features Summary</h2>
-                    
-                    <ul style="margin-left: 20px; line-height: 2;">
-                        <li>✅ <strong>11 Pages Total</strong> - All requirements met</li>
-                        <li>✅ <strong>Consistent Navigation</strong> - Same menu structure across all pages</li>
-                        <li>✅ <strong>Marquee Banner</strong> - Animated event announcements on every page</li>
-                        <li>✅ <strong>External CSS</strong> - Single style.css file for all styling</li>
-                        <li>✅ <strong>JavaScript Interactivity</strong> - Unique features on each page</li>
-                        <li>✅ <strong>Product Showcase</strong> - Multiple product display pages</li>
-                        <li>✅ <strong>Board of Trustees</strong> - 6 member profiles with photos</li>
-                        <li>✅ <strong>Events Page</strong> - 6 upcoming events listed</li>
-                        <li>✅ <strong>Appointment Booking</strong> - Interactive form with validation</li>
-                        <li>✅ <strong>Responsive Design</strong> - Mobile-friendly layout</li>
-                    </ul>
-                </div>
+            <div class="dom-node">
+              <span class="dom-element">📄 index.html</span>
+              <span class="dom-description">
+                - Homepage with hero section and featured products</span
+              >
             </div>
-        </section>
+
+            <div class="dom-node">
+              <span class="dom-element">📁 pages/</span>
+              <span class="dom-description"> - All internal pages</span>
+
+              <div class="dom-node">
+                <span class="dom-element">📄 about.html</span>
+                <span class="dom-description">
+                  - Company story, vision, and values</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 products.html</span>
+                <span class="dom-description">
+                  - Complete product catalog (12 items)</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 collections.html</span>
+                <span class="dom-description">
+                  - Seasonal collections showcase</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 lookbook.html</span>
+                <span class="dom-description">
+                  - Style inspiration and outfit ideas</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 trustees.html</span>
+                <span class="dom-description">
+                  - Board of Trustees profiles (6 members)</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 events.html</span>
+                <span class="dom-description">
+                  - Upcoming events and fashion shows (6 events)</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 gallery.html</span>
+                <span class="dom-description">
+                  - Fashion photography gallery (12 images)</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 appointments.html</span>
+                <span class="dom-description">
+                  - Booking form with validation</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 contact.html</span>
+                <span class="dom-description">
+                  - Contact information and inquiry form</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 dom-structure.html</span>
+                <span class="dom-description">
+                  - This page - website architecture</span
+                >
+              </div>
+            </div>
+
+            <div class="dom-node">
+              <span class="dom-element">📁 css/</span>
+              <span class="dom-description"> - External stylesheets</span>
+
+              <div class="dom-node">
+                <span class="dom-element">📄 style.css</span>
+                <span class="dom-description">
+                  - Main stylesheet with responsive design</span
+                >
+              </div>
+            </div>
+
+            <div class="dom-node">
+              <span class="dom-element">📁 js/</span>
+              <span class="dom-description"> - JavaScript files</span>
+
+              <div class="dom-node">
+                <span class="dom-element">📄 main.js</span>
+                <span class="dom-description">
+                  - Navigation, animations, gallery modal</span
+                >
+              </div>
+              <div class="dom-node">
+                <span class="dom-element">📄 form-validation.js</span>
+                <span class="dom-description">
+                  - Real-time form validation</span
+                >
+              </div>
+            </div>
+
+            <div class="dom-node">
+              <span class="dom-element">📁 images/</span>
+              <span class="dom-description">
+                - Image assets (placeholder folder)</span
+              >
+            </div>
+          </div>
+
+          <div
+            style="
+              margin-top: 50px;
+              background-color: white;
+              padding: 30px;
+              border-radius: 5px;
+            "
+          >
+            <h2 style="color: #2c2c2c; margin-bottom: 20px">
+              Standard Page Structure (DOM Hierarchy)
+            </h2>
+
+            <div class="dom-element">&lt;html&gt;</div>
+            <div class="dom-node">
+              <span class="dom-element">&lt;head&gt;</span>
+              <span class="dom-description">
+                - Meta tags, title, CSS links</span
+              >
+            </div>
+            <div class="dom-node">
+              <span class="dom-element">&lt;body&gt;</span>
+
+              <div class="dom-node">
+                <span class="dom-element"
+                  >&lt;div class="marquee-container"&gt;</span
+                >
+                <span class="dom-description"> - Animated marquee banner</span>
+
+                <div class="dom-node">
+                  <span class="dom-element"
+                    >&lt;div class="marquee-content"&gt;</span
+                  >
+                  <span class="dom-description"> - Event announcements</span>
+                </div>
+              </div>
+
+              <div class="dom-node">
+                <span class="dom-element">&lt;header&gt;</span>
+                <span class="dom-description"> - Site header (sticky)</span>
+
+                <div class="dom-node">
+                  <span class="dom-element"
+                    >&lt;div class="logo-section"&gt;</span
+                  >
+                  <span class="dom-description"> - Brand name and tagline</span>
+                </div>
+                <div class="dom-node">
+                  <span class="dom-element"
+                    >&lt;button class="menu-toggle"&gt;</span
+                  >
+                  <span class="dom-description"> - Mobile menu button</span>
+                </div>
+                <div class="dom-node">
+                  <span class="dom-element">&lt;nav&gt;</span>
+                  <span class="dom-description">
+                    - Navigation menu (11 links)</span
+                  >
+
+                  <div class="dom-node">
+                    <span class="dom-element">&lt;ul&gt;</span>
+                    <span class="dom-description"> - Menu list items</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dom-node">
+                <span class="dom-element">&lt;main class="container"&gt;</span>
+                <span class="dom-description"> - Main content area</span>
+
+                <div class="dom-node">
+                  <span class="dom-element"
+                    >&lt;section class="section"&gt;</span
+                  >
+                  <span class="dom-description"> - Content sections</span>
+                </div>
+              </div>
+
+              <div class="dom-node">
+                <span class="dom-element">&lt;footer&gt;</span>
+                <span class="dom-description"> - Site footer</span>
+
+                <div class="dom-node">
+                  <span class="dom-element"
+                    >&lt;div class="footer-links"&gt;</span
+                  >
+                  <span class="dom-description"> - Footer navigation</span>
+                </div>
+                <div class="dom-node">
+                  <span class="dom-element"
+                    >&lt;div class="social-media"&gt;</span
+                  >
+                  <span class="dom-description"> - Social media links</span>
+                </div>
+              </div>
+
+              <div class="dom-node">
+                <span class="dom-element">&lt;script src="js/main.js"&gt;</span>
+                <span class="dom-description"> - JavaScript functionality</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style="
+              margin-top: 50px;
+              background-color: white;
+              padding: 30px;
+              border-radius: 5px;
+            "
+          >
+            <h2 style="color: #2c2c2c; margin-bottom: 20px">
+              JavaScript Features by Page
+            </h2>
+
+            <div style="margin-bottom: 20px">
+              <strong style="color: #d4af37">All Pages:</strong>
+              <ul style="margin-left: 40px; margin-top: 10px; line-height: 1.8">
+                <li>Mobile navigation toggle</li>
+                <li>Active navigation highlighting</li>
+                <li>Scroll animations (fade-in effects)</li>
+                <li>Back-to-top button</li>
+                <li>Smooth scrolling for anchor links</li>
+              </ul>
+            </div>
+
+            <div style="margin-bottom: 20px">
+              <strong style="color: #d4af37">Gallery Page:</strong>
+              <ul style="margin-left: 40px; margin-top: 10px; line-height: 1.8">
+                <li>Image modal viewer (click to enlarge)</li>
+                <li>Hover overlay effects</li>
+              </ul>
+            </div>
+
+            <div style="margin-bottom: 20px">
+              <strong style="color: #d4af37"
+                >Appointments & Contact Pages:</strong
+              >
+              <ul style="margin-left: 40px; margin-top: 10px; line-height: 1.8">
+                <li>Real-time form validation</li>
+                <li>Email and phone format checking</li>
+                <li>Required field validation</li>
+                <li>Success message display</li>
+                <li>Date picker with past date prevention</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            style="
+              margin-top: 50px;
+              background-color: white;
+              padding: 30px;
+              border-radius: 5px;
+            "
+          >
+            <h2 style="color: #2c2c2c; margin-bottom: 20px">
+              Key Features Summary
+            </h2>
+
+            <ul style="margin-left: 20px; line-height: 2">
+              <li>✅ <strong>11 Pages Total</strong> - All requirements met</li>
+              <li>
+                ✅ <strong>Consistent Navigation</strong> - Same menu structure
+                across all pages
+              </li>
+              <li>
+                ✅ <strong>Marquee Banner</strong> - Animated event
+                announcements on every page
+              </li>
+              <li>
+                ✅ <strong>External CSS</strong> - Single style.css file for all
+                styling
+              </li>
+              <li>
+                ✅ <strong>JavaScript Interactivity</strong> - Unique features
+                on each page
+              </li>
+              <li>
+                ✅ <strong>Product Showcase</strong> - Multiple product display
+                pages
+              </li>
+              <li>
+                ✅ <strong>Board of Trustees</strong> - 8 member profiles with
+                photos
+              </li>
+              <li>
+                ✅ <strong>Events Page</strong> - 6 upcoming events listed
+              </li>
+              <li>
+                ✅ <strong>Appointment Booking</strong> - Interactive form with
+                validation
+              </li>
+              <li>
+                ✅ <strong>Responsive Design</strong> - Mobile-friendly layout
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="about.html">About</a>
-                <a href="products.html">Shop</a>
-                <a href="events.html">Events</a>
-                <a href="contact.html">Contact</a>
-                <a href="appointments.html">Book Appointment</a>
-            </div>
-             <div class="social-media">
-  <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-  <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-  <a href="#" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
-  <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
-</div>
-            <p>&copy; 2025 Déola's Couture. All Rights Reserved.</p>
-            <p style="margin-top: 10px; font-size: 0.9em;">3, Ribadu Road o Awolowo Road Ikoyi | Phone: 09133180951 | Email: info@deolascouture.com</p>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="products.html">Shop</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
+          <a href="appointments.html">Book Appointment</a>
         </div>
+        <div class="social-media">
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p>&copy; 2025 Velaora's Couture. All Rights Reserved.</p>
+        <p style="margin-top: 10px; font-size: 0.9em">
+          3, Ribadu Road o Awolowo Road Ikoyi | Phone: 09133180951 | Email:
+          info@velaorascoutureom
+        </p>
+      </div>
     </footer>
 
     <!-- JavaScript -->
     <script src="../js/main.js"></script>
-</body>
+  </body>
 </html>
