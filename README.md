@@ -1,10 +1,10 @@
-# Déola's Couture - Fashion House Website
+# Velaora's Couture - Fashion House Website
 
-A complete fashion house website built with HTML, CSS, and JavaScript for our Miva Cybersecurity group project.
+A complete fashion house website built with HTML, CSS, and JavaScript for our Miva CSC 106 group project.
 
 ## Project Overview
 
-This website showcases a luxury fashion house called " Couture" and includes all required features for the university assessment task.
+This website showcases a luxury fashion house called " Velaora's Couture" and includes all required features for the university assessment task.
 
 ## Features
 
@@ -14,7 +14,7 @@ This website showcases a luxury fashion house called " Couture" and includes all
 - ✅ **External CSS** - Single stylesheet (style.css) manages all styling
 - ✅ **JavaScript Interactivity** - Unique features on each page
 - ✅ **Product Showcase** - Multiple pages displaying fashion products
-- ✅ **Board of Trustees** - 6 member profiles with photos
+- ✅ **Board of Trustees** - 8 member profiles with photos
 - ✅ **Events Page** - 6 upcoming events with details
 - ✅ **Appointment Booking** - Interactive form with real-time validation
 - ✅ **Contact/Inquiry Page** - Contact information and inquiry form
@@ -87,7 +87,7 @@ elegance-couture/
 
 ## Assessment Requirements Checklist
 
-- ✅ **Naming**: Fashion house named "Déola's Couture"
+- ✅ **Naming**: Fashion house named Velaora's Couture"
 - ✅ **10+ Pages**: 11 pages total (index + 10 internal pages)
 - ✅ **Product Showcase**: Products displayed across multiple pages
 - ✅ **Consistent Links**: Same navigation structure on all pages
@@ -102,7 +102,7 @@ elegance-couture/
 ## Color Scheme
 
 - Primary: #2c2c2c (Dark gray)
-- Secondary: #d4af37 (Gold)
+- Secondary: #a6e421;
 - Accent: #8b7355 (Tan)
 - Background: #f8f8f8 (Light gray)
 
